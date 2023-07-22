@@ -64,9 +64,22 @@ end
 nseq(6).name = "Pell Numbers";
 nseq(6).data = SEQ;
 
-%% Arithmetic Sequence
+%% Arithmetic Sequences
 nseq(7).name = "Arithmetic (+1)";
 nseq(7).data = 1:10000;
+
+nseq(8).name = "Arithmetic (+pi/2)";
+nseq(8).data = 1:pi/2:(pi/2*10002);
+
+nseq(9).name = "Arithmetic (+pi/8)";
+nseq(9).data = 1:pi/8:(pi/8*10002);
+
+nseq(10).name = "Arithmetic (+5pi/18 = 50deg)";
+nseq(10).data = 1:5*pi/18:(5*pi/18*10002);
+
+nseq(11).name = "Arithmetic (+7pi/18 = 70deg)";
+nseq(11).data = 1:7*pi/18:(7*pi*10002);
+
 
 %% Store
 save("NumberSequences.mat", 'nseq')
