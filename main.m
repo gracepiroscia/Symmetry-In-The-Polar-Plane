@@ -70,7 +70,7 @@ for s = 7:length(nseq)
         % hold off
 
 
-        if s == 1
+        if s == 7
             subtitle("n = " + num2str(n_intervals(i)));
         end
     
@@ -86,5 +86,5 @@ for s = 7:length(nseq)
 end
 
 %% Interactive Polar Plots
-
+run('InteractivePolarPlot.mlapp')
 
