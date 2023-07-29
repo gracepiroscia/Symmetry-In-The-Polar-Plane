@@ -87,4 +87,5 @@ end
 
 %% Interactive Polar Plots
 run('InteractivePolarPlot.mlapp')
+run('InteractiveMysteryCurve.mlapp')
 
